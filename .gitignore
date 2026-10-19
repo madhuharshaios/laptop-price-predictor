@@ -1,0 +1,36 @@
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Streamlit private secrets (never commit secrets to public GitHub)
+.streamlit/secrets.toml
+
+# Environment variables & credentials
+.env
+.env.*
+*.local
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Operating System temporary files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# SQLite temporary journal files
+*.db-journal
+*.db-wal
+*.db-shm
